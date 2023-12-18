@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Colección de pokémon, conocé sus categorias y cada uno de sus detalles"
+    />
+    <meta
+      name="keywords"
+      content="pokpémon, pokedex, entretenimiento, fuego, agua, tierra, colección"
+    />
+    <meta name="author" content="Torres Claudia" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Pokédex</title>
+  </head>
+  <body>
+    <header class="bg-danger">
+      <nav class="d-flex container navbar navbar-expand-lg">
+        <a class="navbar-brand text-white" href="#">Pokédex</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="./index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="./pages/nosotros.html"
+                >Nosotros</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Categorias
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Agua</a></li>
+                <li><a class="dropdown-item" href="#">Fuego</a></li>
+                <li><a class="dropdown-item" href="#">Tierra</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex ms-auto accordion" role="search">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Buscar un pokemon"
+              aria-label="Search"
+            />
+            <button class="btn text-white border-white" type="submit">
+              <i class="bi bi-search"></i>
+            </button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container my-2">
+        <div id="carouselInfografia" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselInfografia"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselInfografia"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselInfografia"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="../img/carousel 1.png"
+                class="d-block w-100"
+                alt="Pockebola"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../img/carousel 2.png"
+                class="d-block w-100"
+                alt="pockemons"
+              />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="../img/carousel 3.png"
+                class="d-block w-100"
+                alt="cartas de pockemons"
+              />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselInfografia"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselInfografia"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <section class="container my-2">
+        <p class="fs-5 text-center">
+          Bulbasaur es un adorable Pokémon de tipo Planta/Veneno con una planta
+          bulbosa en su espalda que lo distingue de otros Pokémon. Es un
+          compañero leal y poderoso en batalla, y ha dejado una huella duradera
+          en la franquicia Pokémon.
+        </p>
+        <div class="row d-flex justify-contentcenter">
+          <div class="col-12 col-md-12 col-lg-5 text-center h-100">
+            <img
+              src="../img/bulbasaur.png"
+              alt="Pockemons"
+              class="imgDetalle"
+            />
+          </div>
+          <article class="col-12 col-md-12 col-lg-7 h-100">
+            <div class="row bg-primary bg-opacity-75 rounded-2">
+              <div class="col-6 text-center">
+                <h4 class="text-white">Altura</h4>
+                <p class="fs-4">0,7 m</p>
+                <h4 class="text-white">Peso</h4>
+                <p class="fs-4">6,9 kg</p>
+                <h4 class="text-white">Sexo</h4>
+                <p class="fs-4"></p>
+              </div>
+              <div class="col-6 text-center">
+                <h4 class="text-white">Categoría</h4>
+                <p class="fs-4">Semilla</p>
+                <h4 class="text-white">Habilidad</h4>
+                <p class="fs-4">Espesura</p>
+              </div>
+            </div>
+            <h4 class="pt-3">Tipo</h4>
+            <p class="py-2 fs-6">
+              <span class="px-4 py-1 bg-success bg-opacity-75 rounded-2"
+                >Planta</span
+              >
+              <span class="px-4 py-1 bgMorado rounded-2 text-white"
+                >Veneno</span
+              >
+            </p>
+            <h4>Debilidad</h4>
+            <p>
+              La principal debilidad de Bulbasaur radica en su tipo de Pokémon.
+              Al ser de tipo Planta/Veneno, su mayor vulnerabilidad es contra
+              los ataques de tipo Fuego, Volador, Hielo y Psíquico.
+            </p>
+          </article>
+        </div>
+      </section>
+      <section class="container my-2 bg-secondary bg-opacity-25 rounded-2">
+        <h2 class="py-2 text-white">Evoluciones</h2>
+        <div class="row d-flex justify-content-center">
+          <article class="col-12 col-md-4 col-lg-4 mb-2 text-center">
+            <div class="border-0">
+              <img src="../img/bulbasaur.png" alt="Bulbasaur" />
+              <div>
+                <h6 class="text-secondary py-1 fs-6">N° 001</h6>
+                <h4 class="card-title pb-2 fs-6">Bulbasaur</h4>
+                <p class="py-2 fs-6">
+                  <span class="px-4 py-1 bg-success bg-opacity-75 rounded-2"
+                    >Planta</span
+                  >
+                  <span class="px-4 py-1 bgMorado rounded-2 text-white"
+                    >Veneno</span
+                  >
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-4 col-lg-4 mb-2 text-center">
+            <div class="border-0">
+              <img src="../img/venesaur.png" alt="Bulbasaur" />
+              <div>
+                <h6 class="text-secondary py-1 fs-6">N° 002</h6>
+                <h4 class="card-title pb-2 fs-6">Bulbasaur</h4>
+                <p class="py-2 fs-6">
+                  <span class="px-4 py-1 bg-success bg-opacity-75 rounded-2"
+                    >Planta</span
+                  >
+                  <span class="px-4 py-1 bgMorado rounded-2 text-white"
+                    >Veneno</span
+                  >
+                </p>
+              </div>
+            </div>
+          </article>
+          <article class="col-12 col-md-4 col-lg-4 mb-2 text-center">
+            <div class="border-0">
+              <img src="../img/ivysaur.png" alt="Bulbasaur" />
+              <div>
+                <h6 class="text-secondary py-1 fs-6">N° 003</h6>
+                <h4 class="card-title pb-2 fs-6">Bulbasaur</h4>
+                <p class="py-2 fs-6">
+                  <span class="px-4 py-1 bg-success bg-opacity-75 rounded-2"
+                    >Planta</span
+                  >
+                  <span class="px-4 py-1 bgMorado rounded-2 text-white"
+                    >Veneno</span
+                  >
+                </p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-dark text-white text-center p-3">
+      <p>&copy; Todos los derechos reservados</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
